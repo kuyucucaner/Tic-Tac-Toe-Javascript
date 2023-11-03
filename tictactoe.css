@@ -1,0 +1,77 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(240, 239, 239);
+}
+
+.container {
+    text-align: center;
+}
+
+.tic-tac-toe {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 0 auto;
+    width: 310px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    cursor: pointer;
+    background-color: #f0f0f0; /* Arka plan rengi */
+    border-radius: 10px; /* Köşelerin yuvarlatılması */
+    transition: background-color 0.3s; /* Daha düzgün hover efekti */
+}
+
+.cell:hover {
+    background-color: #dcdcdc; /* Üzerine gelindiğinde arka plan rengi */
+}
+
+
+.button {
+    display: inline-block; /* display değeri "block" yerine "inline-block" olarak değiştirildi */
+    margin: 20px auto;
+    background-color: rgb(110, 0, 0);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px; /* Düğme köşelerini yuvarlatma */
+    transition: background-color 0.3s;
+}
+.welcome{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(110, 0, 0);;
+}
+.button:hover {
+    background-color: rgb(212, 62, 62); /* Üzerine gelindiğinde arka plan rengi */
+}
+
+#message {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Hafif bir gölgelendirme efekti */
+    transition: background-color 0.3s;
+}
+
+#message:hover {
+    background-color: #e0e0e0; /* Üzerine gelindiğinde arka plan rengi */
+}
+

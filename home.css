@@ -1,0 +1,46 @@
+body {
+    background: rgb(240, 239, 239);
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-title {
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(110, 0, 0);
+    line-height: 0.8;
+    margin-bottom: -10px;
+}
+
+.play-text {
+    font-size: 80px;
+    text-align: center;
+    color: rgb(212, 62, 62);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 0.8;
+    margin-top: 50px;
+}
+
+.player-vs {
+    font-size: 1.2rem;
+    opacity: 0.8; /* Daha belirgin hale getirmek için opaklığı artırın */
+    margin: 0 auto; /* Butonu yatayda ortala */
+    width: 200px;
+    height: 50px;
+    background-color: #797979; /* Arka plan rengi */
+    color: #FFFFFF; /* Metin rengi */
+    border: none; /* Kenar çizgisi olmasın */
+    border-radius: 5px; /* Yuvarlatılmış kenarlar */
+    cursor: pointer; /* İmleci el işareti yap */
+    transition: background-color 0.3s, color 0.3s; /* Renk değişimlerine yumuşak geçiş ekleyin */
+}
+
+.player-vs:hover {
+    background-color: rgb(192, 148, 148); /* Fare üzerine gelindiğinde arka plan rengini değiştir */
+}
+
