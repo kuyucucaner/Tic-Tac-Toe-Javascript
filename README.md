@@ -1,6 +1,6 @@
 # ❌⭕ Tic-Tac-Toe Game (JavaScript)
 
-**Tic-Tac-Toe-Javascript** is a simple web-based implementation of the classic Tic-Tac-Toe game. Built with vanilla JavaScript, HTML, and CSS, it provides a fun and interactive user experience.
+**Tic-Tac-Toe-Javascript** is a simple web-based implementation of the classic Tic-Tac-Toe game. Built with vanilla JavaScript, HTML, and CSS, it provides a fun and interactive user experience. 
 
 ---
 
